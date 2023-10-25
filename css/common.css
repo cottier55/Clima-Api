@@ -8,9 +8,9 @@
 
 :root {
     /* Declaro variables CSS con colores principales */
-    --color-theme: #00594c;
-    --color-active: #5df2d6;
-    --color-back-active: #04957d;
+    --color-theme: #001559de;
+    --color-active: #5df2d9;
+    --color-back-active: #047f95ce;
     --color-gradient: linear-gradient(to right, var(--color-theme), var(--color-back-active));
     --color-success: #28a745;
     --color-warning: #ffc107;
