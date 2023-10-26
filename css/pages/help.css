@@ -1,39 +1,114 @@
-/*CENTRADO ELEMENTOS MAIN*/
-main{
+.card {
+    background-color:#f7fcaf;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #1a2c66; /* Contorno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #1a2c66;
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group {
+    position: relative;
+  }
+  
+  .form .group label {
+    font-size: 14px;
+    color: #3e8692;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #1a2c66;
+    transition: all .3s ease;
+  }
+  
+  .form .group input,
+  .form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #3e8692;
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  .form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
+    top: 10px;
+    background-color: transparent;
+  }
+  
+  .form .group input:focus,
+  .form .group textarea:focus {
+    border-color: #1a2c66;
+  }
+  
+  .form .group input:focus+ label, .form .group textarea:focus +label {
+    top: -10px;
+    left: 10px;
+    background-color: #1a2c66;
+    color: #ffa45a;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .form .group textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .form button {
+    background-color: #3e8692;
+    color: #ffa45a;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #1a2c66;
+  }
+  
+  
+
+/* Copia tus estilos existentes aquí */
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
 }
 
-/*CENTRADO ELEMENTOS DEL FORMULARIO*/
-section form{
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    
-}
-
-/*CENTRADO Y SEPARACIÓN DE BOTONES*/
-.botones{
+.botones {
     display: flex;
     justify-content: center;
     gap: 5px;
 }
 
-/*ESTILADOS DE FORMULARIOS*/
-input, textarea{
-    width: 300px;
+input, textarea {
+    width: 292px;
     padding: 7px;
     border-radius: 3px;
 }
 
-label, div{
-    margin-top: 10px;
-}
-
-/*TEXTO NEGRITA*/
-
-#bold{
+#bold {
     font-weight: bold;
 }
