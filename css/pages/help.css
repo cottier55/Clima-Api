@@ -112,3 +112,14 @@ input, textarea {
 #bold {
     font-weight: bold;
 }
+
+#social-icons {
+  position: fixed;
+  top: 10px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+  right: 10px; /* Ajusta la distancia desde la parte derecha según tus necesidades */
+  display: flex;
+}
+
+#social-icons a {
+  margin-right: 10px; /* Espacio entre los íconos de redes sociales */
+}

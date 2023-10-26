@@ -2,9 +2,13 @@
     width: 200px;
     padding: 7px;    /* Se le da estilo al selector de la ciudad*/
     border-radius: 3px;
-    
+    background-color: #f7fcaf;  /* Relleno amarillo */
+    border: 2px solid #1a2c66;    /* Contorno azul */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  /* Sombra */
+    color: #3e8692;
 }
 
+  
 .card {  /* Card es la clase de los hijos ques seran creados*/
     padding: 0px 16px;
     margin-top: 30px;
@@ -19,19 +23,17 @@
     font-size: 14px;
 }
 
-.fullscreen-video {
+#social-icons {
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
-  }
+    top: 10px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    right: 10px; /* Ajusta la distancia desde la parte derecha según tus necesidades */
+    display: flex;
+}
+
+#social-icons a {
+    margin-right: 10px; /* Espacio entre los íconos de redes sociales */
+}
+
+
   
-  .fullscreen-video video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
   
