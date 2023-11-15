@@ -1,3 +1,9 @@
+body {
+    background-image: url('../../img/fondoclima.png'); /* Reemplaza 'nombre-de-la-imagen.jpg' con el nombre de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
 #selector {
     width: 200px;
     padding: 7px;    /* Se le da estilo al selector de la ciudad*/
